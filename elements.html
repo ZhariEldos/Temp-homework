@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>elements</title>
+    </head>
+    <body>
+        <form action="submit" method="post">
+            <label for="name">Label: </label>
+            <input type="text" id="name"><br>
+            <label for="email">email: </label>
+            <input type="email" id="email"><br>
+            <label for="password">password: </label>
+            <input type="password" id="password"><br>
+            <label for="textarea">textarea: </label>
+            <textarea id="textarea"></textarea><br>
+            <label for="country">country: </label>
+            <select name="country" id="country">
+                <option>Россия</option>
+                <option>США</option>
+                <option>Канада</option>
+            </select><br><br>
+            <button>Submit</button>
+            <button>Reset</button>
+        </form>
+        <fieldset>
+            <legend>Test</legend>
+            <form action="submit" method="post">
+                <label for="name">Name: </label>
+                <input type="text" id="name" required><br>
+                <label for="country">test: </label>
+                <select name="test" id="test" required>
+                    <option>answer 1</option>
+                    <option>answer 2</option>
+                    <option>answer 3</option>
+                </select><br><br>
+                <button>Submit</button>
+                <button>Reset</button>
+            </form>
+        </fieldset>
+    </body>
+</html>
