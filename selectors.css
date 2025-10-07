@@ -1,0 +1,19 @@
+p {
+    color: rgb(13, 162, 80);
+}
+.main_facts {
+    color: rgb(131, 6, 6);
+    font-style: italic;
+}
+#title {
+    color: rgb(55, 74, 53);
+}
+#subtitle {
+    color: rgb(56, 69, 56);
+}
+#test {
+    color: rgb(229, 255, 0)
+}
+.test {
+    color: rgb(255, 0, 0);
+}
