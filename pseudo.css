@@ -1,0 +1,12 @@
+#submit_button:hover {
+    background-color: rgb(160, 160, 135);
+}
+#submit_button:focus {
+    border: 2px solid rgb(100, 90, 170);
+}
+.list-item:first-child {
+    font-weight: bold;
+}
+.list-item:last-child {
+    font-style: italic;
+}

@@ -1,0 +1,8 @@
+.list-item:first-child:hover {
+    background-color: rgb(40, 105, 30);
+    display:inline;
+    color: white;
+}
+.list-item:nth-child(odd) {
+    color: green;
+}
