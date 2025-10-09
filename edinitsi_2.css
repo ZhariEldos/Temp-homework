@@ -1,0 +1,15 @@
+#mainDiv {
+    background-color: rgb(200, 25, 25);
+    color: rgb(200,200,200);
+    width: 25%;
+    padding: 20px;
+    padding-top: 10px;
+}
+
+#subDiv{
+    background-color: rgba(200 200 200 / 50%);
+    color: rgba(200 25 25 / 75%);
+    height: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+}

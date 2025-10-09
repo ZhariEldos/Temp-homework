@@ -1,0 +1,32 @@
+#title {
+    font-size: 30px;
+}
+#text2 {
+    font-size: 1.5em;
+}
+#text3 {
+    font-size: 2rem;
+}
+#text1 {
+    font-size: 50%;
+}
+#a {
+    border: 1px solid black;
+    width: 100px;
+}
+#div1 {
+    height: 40px;
+    width: 50px;
+    background-color: rgb(2, 102, 102);
+}
+#div2 {
+    height: 50px;
+    width: 100px;
+    background-color: rgba(0 0 0 / 60%);
+    color: rgb(198, 198, 198);
+}
+#div3 {
+    height: 100px;
+    width: 20px;
+    background-image: url("cat.png");
+}
