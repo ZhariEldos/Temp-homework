@@ -1,0 +1,19 @@
+#title {
+    display: inline;
+}
+#text {
+    display: inline;
+}
+#main_text {
+    display: inline;
+}
+#image {
+    display: block;
+}
+.a {
+    display: block;
+    margin-left: 10px;
+}
+#divv {
+    display: block;
+}
