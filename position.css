@@ -1,0 +1,36 @@
+.div1 {
+    position: static;
+    margin: 1px;
+    background-color: blue;
+    color: white;
+}
+.div2 {
+    position:relative;
+    left: 50px;
+    bottom: 10px;
+    background-color: red;
+    color: white;
+    width: 50px;
+}
+.div3 {
+    position: absolute;
+    left: 90%;
+    bottom: 50px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+p {
+    width: 50%;
+    font-size: 40px;
+}
+.div4 {
+    position: fixed;
+    background-color: aqua;
+}
+.div5 {
+    position: sticky;
+    top: 25px;
+    background-color: purple;
+    color: white;
+}
