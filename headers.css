@@ -1,0 +1,557 @@
+body {
+    background-color: rgb(235, 235, 235);
+}
+/* header 1 */
+#header1 {
+    display: flex;
+    background-color: white;
+    padding: 20px 40px 20px 40px;
+    height: 40px;
+    width: 90%;
+}
+#logo1 {
+    height: 32px;
+    width: 32px;
+    padding: 4px;
+}
+#links1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 465px;
+    font-family: 'Inter';
+}
+.link1:hover {
+    align-content: center;
+    color: rgb(92, 83, 233);
+    text-decoration: none;
+}
+.link1 {
+    align-content: center;
+    color: black;
+    text-decoration: none;
+}
+#buttons1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: end;
+    flex-grow:1;
+}
+#subdivOfButton1 {
+    display:flex;
+    width: 198px;
+    height: 40px;
+}
+#SignIn1 {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Inter';
+    align-items: center;
+    width: 92px;
+    height: 40px;
+    border: 0px solid rgba(255,255,255,0);
+    background-color: rgb(235, 235, 235);
+    border-radius: 3px;
+}
+#GetStarted1 {
+    font-family: 'Inter';
+    margin-left: 8px;
+    width: 98px;
+    height: 40px;
+    border: 0px solid rgba(255,255,255,0);
+    color: white;
+    background-color: rgb(92, 83, 233);
+    border-radius: 3px;
+}
+#arrow1 {
+    flex-basis: 20px;
+    height: 20px;
+}
+#SignInText1 {
+    margin: 0px;
+    margin-left: 4px;
+    margin-right: 10px;
+}
+/* header 2 */
+#header2 {
+    margin-top: 5px;
+    display: flex;
+    background-color: white;
+    padding: 20px 40px 20px 40px;
+    height: 40px;
+    width: 90%;
+}
+#logo2 {
+    height: 32px;
+    width: 32px;
+    padding: 4px;
+}
+#links2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'Inter';
+    flex-grow: 1;
+}
+.link2:hover {
+    align-content: center;
+    margin-left: 15px;
+    margin-right: 15px;
+    color: rgb(92, 83, 233);
+    text-decoration: none;
+}
+.link2 {
+    align-content: center;
+    margin-left: 15px;
+    margin-right: 15px;
+    color: black;
+    text-decoration: none;
+}
+#buttons2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: end;
+    width: 320px;
+    height: 40px;
+}
+#subdivOfButton2 {
+    display:flex;
+    width: 320px;
+    height: 40px;
+}
+#input2 {
+    padding: 5px;
+    border: 1px solid rgb(235, 235, 235);
+    border-radius: 3px;
+    width: 188.4px;
+    height: 28.4px;
+}
+#GetStarted2 {
+    font-family: 'Inter';
+    font-size: 12px;
+    margin-left: 8px;
+    width: 101px;
+    height: 40px;
+    border: 0px solid rgba(255,255,255,0);
+    color: white;
+    background-color: rgb(92, 83, 233);
+    border-radius: 3px;
+}
+/* header 3 */
+#header3 {
+    margin-top: 5px;
+    display: flex;
+    background-color: white;
+    padding: 20px 40px 20px 40px;
+    height: 40px;
+    width: 90%;
+}
+#account3 {
+    display:flex;
+    height: 32px;
+    width: 32px;
+    padding: 4px;
+    border: 0px solid rgba(255,255,255,0);
+    border-radius: 5px;
+    background-color: rgb(235, 235, 235);
+}
+#links3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'Inter';
+    flex-grow: 1;
+}
+.link3:hover {
+    align-content: center;
+    margin-left: 15px;
+    margin-right: 15px;
+    color: rgb(92, 83, 233);
+    text-decoration: none;
+}
+.link3 {
+    align-content: center;
+    margin-left: 15px;
+    margin-right: 15px;
+    color: black;
+    text-decoration: none;
+}
+#buttons3 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: end;
+    flex-grow: 1;
+}
+#subdivOfButton3 {
+    display:flex;
+    width: 320px;
+    height: 40px;
+}
+#input3 {
+    padding: 0px;
+    border: 1px solid rgb(235, 235, 235);
+    width: 198.4px;
+    height: 38.4px;
+}
+#GetStarted3 {
+    font-family: 'Inter';
+    margin-left: 8px;
+    width: 101px;
+    height: 40px;
+    border: 0px solid rgba(255,255,255,0);
+    color: white;
+    background-color: rgb(92, 83, 233);
+    border-radius: 3px;
+}
+#div3 {
+    flex-grow: 1;
+}
+/* header 4 */
+#header4 {
+    margin-top: 5px;
+    display: flex;
+    background-color: white;
+    padding: 0 40px 0 40px;
+    height: 118px;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+}
+#subdiv4 {
+    display: flex;
+    height: 54px;
+    width: 84%;
+}
+#logo4 {
+    flex-grow: 1;
+    height: 54px;
+    display: flex;
+    align-items: center;
+}
+#links4 {
+    flex-grow:1;
+    display:flex;
+    justify-content: end;
+    align-items: center;
+}
+.link4:hover {
+    display:flex;
+    align-items: center;
+    font-family: 'Inter';
+    align-content: center;
+    height:20px;
+    margin-left: 15px;
+    margin-right: 15px;
+    color: #4A3AFF;
+    text-decoration: none;
+}
+.link4 {
+    display:flex;
+    align-items: center;
+    font-family: 'Inter';
+    align-content: center;
+    height:20px;
+    margin-left: 15px;
+    margin-right: 15px;
+    color: black;
+    text-decoration: none;
+}
+#GetStarted4 {
+    width: 139px;
+    height: 100%;
+    background-color: #4A3AFF;
+    font-family: 'Inter';
+    color: white;
+    border: 0px;
+    border-radius: 50px;
+}
+/* homework */
+/* header 5 */
+#header5 {
+    margin-top: 5px;
+    display: flex;
+    background-color: white;
+    padding: 0px 40px 0px 40px;
+    height: 65px;
+    width: 90%;
+    align-items: center;
+    font-family: 'Inter';
+}
+#subdiv5 {
+    display:flex;
+    flex-grow:1;
+    height: 41px;
+    justify-content: space-between;
+}
+#logoAndSearch5 {
+    width: 45%;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+#links5 {
+    width: 45%;
+    display:flex;
+    align-items: center;
+    justify-content: end;
+    height: 100%;
+}
+.link5:hover {
+    align-content: center;
+    margin-left: 15px;
+    margin-right: 15px;
+    color: rgb(92, 83, 233);
+    text-decoration: none;
+}
+.link5 {
+    align-content: center;
+    margin-left: 15px;
+    margin-right: 15px;
+    color: black;
+    text-decoration: none;
+}
+#RegisterLogin5 {
+    font-family: 'Inter';
+    font-size: 12px;
+    margin-left: 8px;
+    width: 101px;
+    height: 40px;
+    border: 0px solid white;
+    color: white;
+    background-color: black;
+    border-radius: 3px;
+}
+#SearchDiv5 {
+    display: flex;
+    padding: 5px;
+    border: 1px solid rgb(235, 235, 235);
+    border-radius: 3px;
+    align-content: center;
+}
+#input5 {
+    border:0;
+    font-family: 'Inter';
+}
+/* header 6 */
+#header6 {
+    margin-top: 5px;
+    display: flex;
+    background-color: white;
+    padding: 20px 40px 20px 40px;
+    height: 40px;
+    width: 90%;
+}
+#logo6 {
+    height: 32px;
+    width: 32px;
+    padding: 4px;
+}
+#links6 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 465px;
+    font-family: 'Inter';
+}
+.link6:hover {
+    align-content: center;
+    color: rgb(92, 83, 233);
+    text-decoration: none;
+}
+.link6 {
+    align-content: center;
+    color: black;
+    text-decoration: none;
+}
+#buttons6 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: end;
+    flex-grow:1;
+}
+#subdivOfButton6 {
+    display:flex;
+    justify-content: end;
+    width: 198px;
+    height: 40px;
+}
+.button6 {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Inter';
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    margin-left: 8px;
+    height: 40px;
+    border: 0px solid rgba(255,255,255,0);
+    background-color: rgb(235, 235, 235);
+    border-radius: 3px;
+}
+#GetStarted6 {
+    font-family: 'Inter';
+    margin-left: 8px;
+    width: 66px;
+    height: 40px;
+    border: 0px solid rgba(255,255,255,0);
+    color: white;
+    background-color: rgb(92, 83, 233);
+    border-radius: 3px;
+}
+.buttonPicture6 {
+    flex-basis: 20px;
+    height: 20px;
+}
+/* header 7 */
+#header7 {
+    margin-top: 5px;
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px 40px 20px 40px;
+    height: 40px;
+    width: 90%;
+}
+#logo7 {
+    width: 113.7px;
+    height: 30px;
+    padding: 4px;
+}
+#links7 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-grow: 1;
+    font-family: 'Inter';
+}
+.link7:hover {
+    align-content: center;
+    color: rgb(92, 83, 233);
+    text-decoration: none;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.link7 {
+    align-content: center;
+    color: black;
+    text-decoration: none;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+#buttons7 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+#subdivOfButton7 {
+    display:flex;
+}
+#buttonSearch7 {
+    align-content: center;
+    justify-content: center;
+    font-family: 'Inter';
+    margin-left: 8px;
+    width: 32px;
+    height: 24px;
+    border: 0px solid rgba(255,255,255,0);
+    background-color: white;
+    border-radius: 3px;
+}
+#search7 {
+    flex-basis: 20px;
+    height: 20px;
+}
+/* header 8 */
+#header8 {
+    margin-top: 5px;
+    display: flex;
+    background-color: black;
+    border-radius: 10px;
+    padding: 20px 40px 20px 40px;
+    height: 40px;
+    width: 90%;
+}
+#logo8 {
+    width: 113.7px;
+    height: 30px;
+    padding: 4px;
+}
+#links8 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    flex-grow: 1;
+    font-family: 'Inter';
+}
+.link8:hover {
+    align-content: center;
+    color: rgb(110, 110, 110);
+    text-decoration: none;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.link8 {
+    align-content: center;
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+/* header 9 */
+#header9 {
+    margin-top: 5px;
+    display: flex;
+    background-color: black;
+    border-radius: 10px;
+    padding: 20px 40px 20px 40px;
+    height: 40px;
+    width: 90%;
+}
+#logo9 {
+    width: 113.7px;
+    height: 30px;
+    padding: 4px;
+}
+#links9 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    flex-grow: 1;
+    font-family: 'Inter';
+}
+.link9:hover {
+    align-content: center;
+    color: rgb(110, 110, 110);
+    text-decoration: none;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.link9 {
+    align-content: center;
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+#SearchDiv9 {
+    display: flex;
+    width: 500px;
+    padding: 5px;
+    margin-left: 20px;
+    border: 1px solid white;
+    border-radius: 3px;
+    align-content: center;
+    justify-content: space-between;
+}
+#input9 {
+    border:0;
+    font-family: 'Inter';
+    background-color: black;
+}
