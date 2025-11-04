@@ -1,0 +1,283 @@
+body {
+    background-color: rgb(30, 30, 30);
+}
+#main {
+    display:flex;
+    justify-content: space-between;
+}
+
+/* Card 1 */
+#Card1 {
+    font-family: 'Inter';
+    display: flex;
+    background-color: black;
+    width: 630px;
+    height: 236px;
+    padding: 20px;
+    border-radius: 5px;
+}
+#MainPart1 {
+    padding: 10px;
+    margin-left: 20px;
+}
+.tag {
+    font-size: 10px;
+    background-color: rgb(80, 80, 80);
+    display:inline;
+    color:white;
+    border: 0px;
+    border-radius: 5px;
+    padding: 3px;
+}
+.episName {
+    margin-top: 20px;
+    font-size: 10px;
+    color: rgb(76, 136, 154);
+}
+.title {
+    margin-top: 10px;
+    font-weight: 400;
+    color:white;
+}
+.text {
+    font-size: 10px;
+    color:white;
+}
+#button1 {
+    font-size: 9px;
+    background-color: rgb(76, 136, 154);
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    width: 104px;
+    height: 25px;
+}
+/* Card 2 */
+#card2 {
+    margin-top: 10px;
+    padding: 5px;
+    display:flex;
+    font-family: 'Inter';
+    background-color: rgb(169, 222, 195);
+    width: 175px;
+    height: 365px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-between;
+}
+#text2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+#Amure2 {
+    margin-top: 8px;
+    width: 155px;
+}
+.NameOfAuthor {
+    font-size: 10px;
+    margin: 1px;
+    color: rgb(89, 148, 116);
+}
+.NameOfPicture {
+    margin-top: 3px;
+    margin-bottom: 1px;
+}
+.Materials {
+    font-size: 14px;
+    margin-top: 1px;
+    margin-bottom: 5px;
+}
+.PicturesPrice {
+    margin-bottom: 5px;
+    margin-top: 8px;
+    color: rgb(89, 148, 116);
+}
+.divBuy {
+    font-family: 'Inter';
+    width: 100%;
+    height: 32.5px;
+    background-color: rgb(169, 222, 195);
+    border: 1px solid rgb(89, 148, 116);
+}
+.buttonBuy {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    border:0;
+    color: rgb(89, 148, 116);
+}
+/* Card 3 */
+#card3 {
+    margin-top: 10px;
+    font-family: 'Inter';
+    background-color: white;
+    border-radius:10px;
+    width: 360px;
+    margin-top: 10px;
+}
+#content3 {
+    padding: 10px;
+    padding-top: 0px;
+}
+#title3 {
+    color: rgb(20, 175, 235);
+}
+#authorSection3 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+#authorInfo3 {
+    display: flex;
+}
+.InfoTextClass {
+    margin: 0;
+    margin-left: 3px;
+}
+.InfoTextClass#name {
+    font-weight: 600;
+    margin-bottom: 3px;
+}
+.InfoTextClass#date {
+    font-weight: 200;
+    font-size: 10px;
+    color: rgb(80, 80, 80);
+}
+#buttonReadNow3 {
+    border: solid 0;
+    color: white;
+    background-color: rgb(20, 175, 235);
+    border-radius:10px;
+    padding: 3px;
+}
+/* Card 4 */
+#card4 {
+    margin-top: 10px;
+    background-color: white;
+    font-family: 'Inter';
+    border-radius:10px;
+    width: 380px;
+}
+#content4 {
+    padding: 40px 25px 40px 25px;
+}
+#title4 {
+    margin:0;
+    margin-bottom: 15px;
+}
+#descripe4 {
+    margin: 2px 0px 2px 0px;
+    font-size: 14px;
+}
+#price4 {
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+#buy4 {
+    background-color: rgb(255, 200, 0);
+    border: solid 0;
+    border-radius:10px;
+    font-size: 17px;
+    width: 163px;
+    height:68px;
+}
+/* Homework */
+/* Card 5 */
+#Card5 {
+    font-family: 'Inter';
+    display: flex;
+    background-color: black;
+    width: 630px;
+    height: 272.5px;
+    padding: 20px;
+    border-radius: 5px;
+}
+#MainPart5 {
+    padding: 10px;
+    margin-left: 20px;
+}
+#button5 {
+    font-size: 9px;
+    background-color: rgb(76, 136, 154);
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    width: 104px;
+    height: 25px;
+}
+/* Card 6 */
+#card6 {
+    margin-top: 10px;
+    padding: 5px;
+    display:flex;
+    font-family: 'Inter';
+    background-color: rgb(169, 222, 195);
+    width: 160px;
+    height: 335px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-between;
+}
+#text6 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+#Amure6 {
+    margin-top: 8px;
+    width: 140px;
+}
+/* Card 7 */
+#card7 {
+    margin-top: 10px;
+    background-color: white;
+    font-family: 'Inter';
+    border-radius:10px;
+    width: 380px;
+}
+#content7 {
+    padding: 40px 25px 40px 25px;
+}
+#title7 {
+    margin:0;
+    margin-bottom: 15px;
+}
+#descripe7 {
+    margin: 2px 0px 2px 0px;
+    font-size: 14px;
+}
+#price7 {
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+#buy7 {
+    background-color: rgb(255, 200, 0);
+    border: solid 0;
+    border-radius:10px;
+    font-size: 17px;
+    width: 163px;
+    height:68px;
+}
+/* Card 8 */
+#card8 {
+    margin-top: 10px;
+    background-color: rgb(2, 0, 28);
+    width: 330px;
+    font-family: 'Inter';
+    border-radius:10px;
+    padding: 20px 20px 40px 20px;
+}
+#top8 {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+#title8 {
+    color: white;
+    font-weight: 500;
+}
+.text8 {
+    color: rgb(148, 146, 168);
+    font-weight: 500;
+}
