@@ -1,0 +1,48 @@
+#menu {
+    display:grid;
+    grid-auto-flow: row;
+    height: 100%;
+    grid-template-columns: 390px 390px 390px;
+    grid-template-rows: 590px 590px 590px;
+    align-items: center;
+    justify-content: center;
+}
+.card {
+    margin-top: 10px;
+    background-color: white;
+    font-family: 'Inter';
+    border-radius:10px;
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+    height: 582px;
+}
+.content {
+    padding: 40px 25px 40px 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-grow: 1;
+}
+.title {
+    margin:0;
+    margin-bottom: 15px;
+}
+.descripe {
+    margin: 2px 0px 2px 0px;
+    font-size: 17px;
+    width: 75%;
+}
+.price {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 25px;
+}
+.buy {
+    background-color: rgb(255, 200, 0);
+    border: solid 0;
+    border-radius:10px;
+    font-size: 17px;
+    width: 163px;
+    height:68px;
+}
