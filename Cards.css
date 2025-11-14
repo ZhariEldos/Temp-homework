@@ -75,20 +75,20 @@ body {
 }
 .NameOfAuthor {
     font-size: 10px;
-    margin: 1px;
+    margin: 2px 0 2px 0;
     color: rgb(89, 148, 116);
 }
 .NameOfPicture {
-    margin-top: 3px;
+    margin-top: 5px;
     margin-bottom: 1px;
 }
 .Materials {
     font-size: 14px;
     margin-top: 1px;
-    margin-bottom: 5px;
+    margin-bottom: 20px;
 }
 .PicturesPrice {
-    margin-bottom: 5px;
+    margin-bottom: 8px;
     margin-top: 8px;
     color: rgb(89, 148, 116);
 }
@@ -244,7 +244,6 @@ body {
     flex-wrap: wrap;
 }
 #Amure6 {
-    margin-top: 8px;
     width: 250px;
 }
 /* Card 7 */
