@@ -1,0 +1,203 @@
+html {
+    font-family: 'Inter';
+}
+body {
+    margin: 0;
+}
+#header {
+    display: flex;
+    background-color: #E1EDE6;
+    height: 100px;
+    justify-content: space-around;
+    align-items: center;
+}
+hr {
+    display: none;
+    margin: 0px;
+}
+#buttons {
+    width: 32.5%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#links {
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 2;
+    font-size: 14px;
+    align-items: center;
+}
+#logo {
+    height: 35px;
+}
+#cart_img {
+    width: 24px;
+}
+#menu_img {
+    width: 24px;
+}
+#cart {
+    display: flex;
+    align-items: center;
+}
+#menu {
+    display:none;
+    align-items: center;
+}
+#hero {
+    display: flex;
+    justify-content: space-around;
+    width: 75%;
+}
+#title {
+    font-weight: 600;
+    font-size: 60px;
+    margin: 0 0 10px 0;
+}
+w {
+    display:inline;
+    color: #598D66
+}
+#text {
+    margin-bottom: 55px;
+}
+p {
+    color: #86928B;
+}
+#production {
+    font-family: 'Inter';
+    width: 255px;
+    height: 65px;
+    border: 1.5px solid #598D66;
+    color: #598D66;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0);
+}
+#list {
+    display: flex;
+    justify-content: center;
+}
+#content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#bird_img {
+    width: 540px;
+}
+@media (max-width: 750px) {
+    #buttons {
+        width: 45%;
+    }
+    #bird_img {
+        width: 400px;
+    }
+    #text {
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+    #title {
+        font-size: 42px;
+        font-weight: 500;
+    }
+    #hero {
+        width: 90%;
+    }
+}
+@media (max-width: 690px) {
+    #buttons {
+        width: 60%;
+    }
+    #bird_img {
+        width: 330px;
+    }
+    #text {
+        font-size: 12px;
+        margin-bottom: 30px;
+    }
+    #title {
+        font-size: 24px;
+        font-weight: 400;
+    }
+    #hero {
+        width: 90%;
+    }
+    #production {
+        width: 210px;
+        height: 60px;
+    }
+}
+@media (max-width: 576px) {
+    hr {
+        display:block;
+        width: 90%;
+        background-color: rgb(212, 227, 200);
+        height: 1px;
+    }
+    #header {
+        flex-direction: column;
+        height: 123px;
+    }
+    #text {
+        margin-bottom: 10px;
+    }
+    #buttons {
+        width: 87.5%;
+        justify-content: space-between;
+    }
+    #links {
+        flex-grow: 1;
+        justify-content: space-between;
+    }
+    #cart {
+        flex-grow: 2;
+        display:flex;
+        justify-content: end;
+    }
+    #bird_img {
+        width: 195px;
+    }
+    #list {
+        margin-top: 50px;
+    }
+    #production {
+        width: 178px;
+        height: 50px;
+    }
+}
+@media (max-width: 320px) {
+    hr {
+        display:none;
+    }
+    #header {
+        flex-direction: column;
+        background-color: white;
+    }
+    #buttons {
+        width: 100%;
+        height: 50%;
+        align-items: center;
+        background-color: #E1EDE6;
+    }
+    #links {
+        display: none;
+    }
+    #menu {
+        display:flex;
+        margin-left: 10px;
+    }
+    #cart {
+        margin-right: 10px;
+    }
+    #bird {
+        display: none;
+    }
+    #production {
+        width: 154px;
+        height: 50px;
+    }
+    #text {
+        margin-bottom: 30px;
+    }
+}
