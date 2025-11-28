@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+}
+#pictures_list {
+    display:grid;
+    grid-auto-flow: row;
+    height: 100%;
+    grid-template-columns: 370px 370px 370px;
+    grid-template-rows: 745px 745px;
+    align-items: center;
+    justify-content: center;
+}
+.picture {
+    display:flex;
+    font-family: 'Inter';
+    background-color: rgb(211, 236, 224);
+    justify-content: center;
+    align-content: center;
+    width: 350px;
+    height: 730px;
+    flex-wrap: wrap;
+}
+.space {
+    width: 100%;
+    flex-grow: 1;
+}
+.text {
+    display: flex;
+    flex-wrap: wrap;
+    width: 310px;
+    height: 250px;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.img {
+    width: 310px;
+    height: 422px;
+}
+.NameOfAuthor {
+    font-size: 17px;
+    margin: 2px 0 2px 0;
+    color: rgb(89, 148, 116);
+}
+.NameOfPicture {
+    margin-top: 5px;
+    font-weight: 400;
+    font-size: 35px;
+    margin-bottom: 1px;
+}
+.Materials {
+    font-size: 16px;
+    margin-top: 1px;
+}
+.PicturesPrice {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 25px;
+    color: rgb(89, 148, 116);
+}
+.divBuy {
+    font-family: 'Inter';
+    width: 100%;
+    height: 30%;
+    background-color: rgba(0,0,0,0);
+    border: 1px solid rgb(89, 148, 116);
+}
+.buttonBuy {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    border:0;
+    font-size: 100%;
+    color: rgb(89, 148, 116);
+}
+@media (max-width: 768px) {
+    #pictures_list {
+        grid-template-columns: 370px 370px;
+        grid-template-rows: 745px 745px 745px;
+    }
+}

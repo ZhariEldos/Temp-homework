@@ -48,3 +48,9 @@
     width: 163px;
     height:68px;
 }
+@media (max-width: 1024px) {
+    #menu {
+        grid-template-columns: 390px 390px;
+        grid-template-rows: 590px 590px 590px 590px 590px;
+    }
+}
