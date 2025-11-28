@@ -1,0 +1,12 @@
+@font-face {
+   font-family: "Merriweather";
+   src: url(PlaywriteUSTradGuides-Regular.ttf);
+   /* I load new local font */
+}
+h1 {
+    font-family: "Merriweather", "Nunito", sans-serif;
+}
+p {
+    font-family: "Playwrite US Trad Guides", cursive, "Playwrite NZ Guides", cursive;
+    font-weight: 400;
+}
