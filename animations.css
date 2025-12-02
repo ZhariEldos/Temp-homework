@@ -1,0 +1,148 @@
+html {
+    font-family: 'Inter';
+}
+#firstDiv {
+    width: 50px;
+    height: 125px;
+    background-color: black;
+    animation: firstAnim 2s infinite linear;
+}
+@keyframes firstAnim {
+    0% {
+        transform: rotate(0deg)
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+    100% {
+        transform: rotate(360deg)
+    }
+}
+#secondDiv {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    animation: secondAnim 1s infinite ease-in-out;
+}
+@keyframes secondAnim {
+    0% {
+        transform: scale(0.5)
+    }
+    25% {
+        transform: scale(0.25);
+    }
+    50% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(0.5);
+    }
+}
+#thirdDiv {
+    width: 100px;
+    height: 50px;
+    position: relative;
+    left: 110px;
+    background-color: black;
+    animation: thirdDiv 3s infinite ease-in-out;
+}
+@keyframes thirdDiv {
+    0% {
+        transform: translate(0px, 0px);
+    }
+    25% {
+        transform: translate(500px, 0px);
+    }
+    50% {
+        transform: translate(500px, 100px);
+    }
+    75% {
+        transform: translate(0px, 100px);
+    }
+    100% {
+        transform: translate(0, 0px);
+    }
+}
+#fourthDiv {
+    width: 100px;
+    height: 50px;
+    position: relative;
+    bottom: -110px;
+    background-color: black;
+    animation: fourthAnim 5s infinite ease-in-out;
+}
+@keyframes fourthAnim {
+    0% {
+        transform: skew(0deg, 20deg);
+    }
+    25% {
+        transform: skew(20deg, 23deg);
+    }
+    50% {
+        transform: skew(23deg, -20deg);
+    }
+    75% {
+        transform: skew(-20deg, -23deg);
+    }
+    100% {
+        transform: skew(20deg, 0deg);
+    }
+}
+#NotButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 5px;
+    border: 5px solid rgb(52, 88, 52);
+    position: relative;
+    width: 200px;
+    height: 40px;
+    bottom: -200px;
+    background-color: rgb(126, 159, 124);
+}
+#NotButton:hover {
+    height: 35px;
+    bottom: -205px;
+    color: rgb(175, 175, 175);
+    background-color: rgb(88, 124, 88);
+    border: 5px solid rgb(48, 78, 47);
+    box-shadow: 0px -5px 0px 0px rgb(2, 5, 2);
+    animation: hoverAnim 0.5s ease-in;
+}
+@keyframes hoverAnim {
+    0% {
+        transform: scale(1);
+    }
+    85% {
+        transform: scale(0.85);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+#finaleDiv {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    bottom: -400px;
+    background-color: black;
+    animation: finaleDiv 5s infinite ease-in-out;
+}
+@keyframes finaleDiv {
+    0% {
+        transform: rotate(-30deg) scale(0.8) translate(0, 0);
+    }
+    25% {
+        transform: rotate(0deg) scale(1) translate(5px, -5px);
+    }
+    50% {
+        transform: rotate(30deg) scale(0.8) translate(10px, 0px);
+    }
+    75% {
+        transform: rotate(0deg) scale(1) translate(5px, -5px);
+    }
+    100% {
+        transform: rotate(-30deg) scale(0.8) translate(0,0);
+    }
+}
