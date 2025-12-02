@@ -1,0 +1,25 @@
+#firstDiv {
+    display: inline;
+    background-color: rgb(148, 57, 57);
+    color: white;
+    box-shadow: 0px 5px 5px -1px rgba(146, 86, 86, 0.84);
+    font-size: 100px;
+}
+#title {
+    color: rgb(148, 57, 57);
+    text-shadow: 0px 2px 3px rgba(208, 77, 77, 0.74);
+}
+#subtitle {
+    text-shadow: 0px 6px 0px rgba(105, 105, 105, 0.396);
+}
+#secondDiv {
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(-135deg, rgb(204, 26, 26), rgba(204, 26, 26, 0.116));
+}
+#thirdDiv {
+    margin-top: 10px;
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(-45deg, rgba(94, 80, 80, 0.433), rgba(204, 26, 26, 0.116));
+}
