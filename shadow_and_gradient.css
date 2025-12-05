@@ -23,3 +23,9 @@
     height: 100px;
     background: linear-gradient(-45deg, rgba(94, 80, 80, 0.433), rgba(204, 26, 26, 0.116));
 }
+#fourthDiv {
+    margin-top: 10px;
+    width: 100px;
+    height: 100px;
+    background: radial-gradient(rgb(191, 188, 37) 20%,rgba(0,0,0,0) 80%);
+}
