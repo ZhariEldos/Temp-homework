@@ -1,4 +1,4 @@
-#menu {
+main {
     display:grid;
     grid-auto-flow: row;
     height: 100%;
@@ -7,7 +7,7 @@
     align-items: center;
     justify-content: center;
 }
-.card {
+.main__card {
     border: solid 1px rgb(242, 242, 242);
     border-radius: 10px;
     margin-top: 10px;
@@ -19,28 +19,28 @@
     width: 380px;
     height: 582px;
 }
-.content {
+.card__content {
     padding: 40px 25px 40px 25px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     flex-grow: 1;
 }
-.title {
+.text__title {
     margin:0;
     margin-bottom: 15px;
 }
-.descripe {
+.text__descripe {
     margin: 2px 0px 2px 0px;
     font-size: 17px;
     width: 75%;
 }
-.price {
+.content__price {
     margin-bottom: 20px;
     margin-top: 20px;
     font-size: 25px;
 }
-.buy {
+.cost__buy {
     background-color: rgb(255, 200, 0);
     border: solid 0;
     border-radius:10px;
