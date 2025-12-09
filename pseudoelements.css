@@ -17,12 +17,12 @@
     color: rgb(91, 51, 51);
 }
 #mixed::before {
-    content: "This text use ::before";
+    content: "---===This text use ::before";
     color: rgb(42, 26, 95);
     font-style: italic;
 }
 #mixed::after {
-    content: " and ::after";
+    content: " and ::after===---";
     color: rgb(95, 26, 26);
     font-style: normal;
     font-weight: 800;
