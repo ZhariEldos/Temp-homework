@@ -7,9 +7,8 @@ main {
     align-items: center;
     justify-content: center;
 }
-.main__card {
+.card {
     border: solid 1px rgb(242, 242, 242);
-    border-radius: 10px;
     margin-top: 10px;
     background-color: white;
     font-family: 'Inter';
@@ -19,28 +18,28 @@ main {
     width: 380px;
     height: 582px;
 }
-.card__content {
+.card-content {
     padding: 40px 25px 40px 25px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     flex-grow: 1;
 }
-.text__title {
+.content-text__title {
     margin:0;
     margin-bottom: 15px;
 }
-.text__descripe {
+.content-text__descripe {
     margin: 2px 0px 2px 0px;
     font-size: 17px;
     width: 75%;
 }
-.content__price {
+.content-price {
     margin-bottom: 20px;
     margin-top: 20px;
     font-size: 25px;
 }
-.cost__buy {
+.content-cost__buy {
     background-color: rgb(255, 200, 0);
     border: solid 0;
     border-radius:10px;
@@ -49,7 +48,7 @@ main {
     height:68px;
 }
 @media (max-width: 1024px) {
-    #menu {
+    main {
         grid-template-columns: 390px 390px;
         grid-template-rows: 590px 590px 590px 590px 590px;
     }
