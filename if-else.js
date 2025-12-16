@@ -58,4 +58,35 @@ switch(season) {
     case 10:
         console.log("Fall")
         break
+    default:
+        console.log("There's only 12 mounth in year")
+        break
+}
+
+let weekDay = prompt("Write day of week")
+switch(weekDay) {
+    case 1:
+        console.log("Monday")
+        break
+    case 2:
+        console.log("Tuesday")
+        break
+    case 3:
+        console.log("Wednesday")
+        break
+    case 4:
+        console.log("Thursday")
+        break
+    case 5:
+        console.log("Friday")
+        break
+    case 6:
+        console.log("Saturday")
+        break
+    case 7:
+        console.log("Sunday")
+        break
+    default:
+        console.log("There's only 7 days on week")
+        break
 }
