@@ -24,11 +24,11 @@ function max(a, b) {
     if (a == b) {
         return "they are equal each other"
     }
-    return a > b ? "first number greater than second" : "second number greater than first"
+    return a > b ? a : b
 }
-console.log(max(1, 2))
+console.log(max(1, 3))
 console.log(max(1, 1))
-console.log(max(2, 1))
+console.log(max(6, 1))
 
 function square(a) {
     return a * a
