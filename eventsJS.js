@@ -23,11 +23,11 @@ myLink.addEventListener('click', (event) => {
 });
 
 let list = document.getElementById("list")
-for (let i = 0; i < list.children.length; i++) {
-    list.children[i].addEventListener('click', (event) => {
+list.addEventListener('click', (event) => {
+    if (event.target.tagName == "LI") {
         console.log(event.target.textContent)
-    });
-}
+    }
+});
 
 let keyboardInput = document.getElementById("keyboardInput")
 keyboardInput.addEventListener('keydown', (event) => {
