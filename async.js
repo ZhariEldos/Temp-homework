@@ -62,15 +62,9 @@ const task2 = new Promise((resolve, reject) => {
     }, 2000);
 })
 async function task12Control() {
-    let promise1 = new Promise((resolve, reject) => {
-        resolve(task1.then())
-    })
-    let promise2 = new Promise((resolve, reject) => {
-        resolve(task2.then())
-    })
-    let result1 = await promise1;
+    let result1 = await task1;
     console.log(result1)
-    let result2 = await promise2;
+    let result2 = await task2;
     console.log(result2)
 }
 task12Control()
@@ -90,8 +84,12 @@ Promise.all([taskA,taskB]).then(
 )
 
 async function delayedMessage(message, interval) {
-    setTimeout(() => {
-        console.log(message)
-    }, interval);
+    let promise = new Promise((resolve, reject) => {
+        setTimeout(() => {
+            resolve(message)
+        }, interval);
+    })
+    let result = await promise
+    return result
 }
-delayedMessage("Delayed message", 1000)
+delayedMessage("Delayed message", 1000).then(result => console.log(result))
