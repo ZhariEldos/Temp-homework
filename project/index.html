@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <title>Новости</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link rel="stylesheet" href="./css/index.css" />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header class="header">
+            <nav class="header__nav">
+                <a href="./index.html" class="header__logs">
+                    <img src="logo.svg" alt="logo">
+                </a>
+                <a href="./index.html" class="button button--gray header-button" aria-current="page">
+                    Новости
+                </a>
+                <a href="./category.html" class="button button--gray header-button" aria-current="page">
+                    Категории
+                </a>
+            </nav>
+            <div class="header__auth">
+                <a href="./login.html" class="button button--blue">Войти</a>
+            </div>
+        </header>
+
+        <main>
+            <div class="news-grid">
+                <article class="news-card">
+                    <div class="news-card__image">
+                        <img src="default_img.svg" alt="main picture">
+                    </div>
+                    <div class="news-card__content">
+                        <a class="news-card__link" href="/">
+                            <h2 class="news-card__title">
+                                История с вертолётом для осуждённого в Кыргызстане получила продолжение
+                            </h2>
+                            <p class="news-card__info">
+                                06.03.2026 г. • СНГ
+                            </p>
+                        </a>
+                        <div>
+                            <div class="news-card__author">
+                                <div class="user">
+                                    <div class="user__avatar">
+                                        <img src="avatar.svg" alt="avatar">
+                                    </div>
+                                    <a class="user__name">Администратор</a>
+                                </div>
+                            </div>
+                            <div class="news-card__action">
+                                <a href="/" class="button button--blue button--small edit">Редактировать</a>
+                                <button type="button" class="button button--red button--small" onclick="deleteNews()">Удалить</button>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="news-card">
+                    <div class="news-card__image">
+                        <img src="default_img.svg" alt="main picture">
+                    </div>
+                    <div class="news-card__content">
+                        <a class="news-card__link" href="/">
+                            <h2 class="news-card__title">
+                                История с вертолётом для осуждённого в Кыргызстане получила продолжение
+                            </h2>
+                            <p class="news-card__info">
+                                06.03.2026 г. • СНГ
+                            </p>
+                        </a>
+                        <div>
+                            <div class="news-card__author">
+                                <div class="user">
+                                    <div class="user__avatar">
+                                        <img src="avatar.svg" alt="avatar">
+                                    </div>
+                                    <a class="user__name">Администратор</a>
+                                </div>
+                            </div>
+                            <div class="news-card__action">
+                                <a href="/" class="button button--blue button--small edit">Редактировать</a>
+                                <button type="button" class="button button--red button--small" onclick="deleteNews()">Удалить</button>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="news-card">
+                    <div class="news-card__image">
+                        <img src="default_img.svg" alt="main picture">
+                    </div>
+                    <div class="news-card__content">
+                        <a class="news-card__link" href="/">
+                            <h2 class="news-card__title">
+                                История с вертолётом для осуждённого в Кыргызстане получила продолжение
+                            </h2>
+                            <p class="news-card__info">
+                                06.03.2026 г. • СНГ
+                            </p>
+                        </a>
+                        <div>
+                            <div class="news-card__author">
+                                <div class="user">
+                                    <div class="user__avatar">
+                                        <img src="avatar.svg" alt="avatar">
+                                    </div>
+                                    <a class="user__name">Администратор</a>
+                                </div>
+                            </div>
+                            <div class="news-card__action">
+                                <a href="/" class="button button--blue button--small edit">Редактировать</a>
+                                <button type="button" class="button button--red button--small" onclick="deleteNews()">Удалить</button>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="news-card">
+                    <div class="news-card__image">
+                        <img src="default_img.svg" alt="main picture">
+                    </div>
+                    <div class="news-card__content">
+                        <a class="news-card__link" href="/">
+                            <h2 class="news-card__title">
+                                История с вертолётом для осуждённого в Кыргызстане получила продолжение
+                            </h2>
+                            <p class="news-card__info">
+                                06.03.2026 г. • СНГ
+                            </p>
+                        </a>
+                        <div>
+                            <div class="news-card__author">
+                                <div class="user">
+                                    <div class="user__avatar">
+                                        <img src="avatar.svg" alt="avatar">
+                                    </div>
+                                    <a class="user__name">Администратор</a>
+                                </div>
+                            </div>
+                            <div class="news-card__action">
+                                <a href="/" class="button button--blue button--small edit">Редактировать</a>
+                                <button type="button" class="button button--red button--small" onclick="deleteNews()">Удалить</button>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </main>
+        <script src="./js/index.js"></script>
+    </body>
+</html>

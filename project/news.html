@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <title>Новость</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link rel="stylesheet" href="./css/index.css" />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header class="header">
+            <nav class="header__nav">
+                <a href="./index.html" class="header__logs">
+                    <img src="logo.svg" alt="logo">
+                </a>
+                <a href="./index.html" class="button button--gray header-button" aria-current="page">
+                    Новости
+                </a>
+                <a href="./category.html" class="button button--gray header-button" aria-current="page">
+                    Категории
+                </a>
+            </nav>
+            <div class="header__auth">
+                <a href="./login.html" class="button button--blue">Войти</a>
+            </div>
+        </header>
+        <div class="news-detail">
+            <h2 class="title-news">title</h2>
+            <hr>
+            <div class="info">
+                <div class="addiction-info info__user">
+                    <div class="user__avatar">
+                        <img src="avatar.svg" alt="avatar">
+                    </div>
+                    <a class="user__name">Администратор</a>
+                </div>
+                <div class="addiction-info info__date">
+                    Дата
+                </div>
+                <div class="addiction-info info__category">
+                    Спорт
+                </div>
+            </div>
+            <img class="news-image" src="default_img_detail.svg" width="100%" alt="main picture">
+            <p class="news-detail__text">text</p>
+        </div>
+        <script src="./js/news.js"></script>
+    </body>
+</html>

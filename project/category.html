@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <title>Категории</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link rel="stylesheet" href="./css/index.css" />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header class="header">
+            <nav class="header__nav">
+                <a href="./index.html" class="header__logs">
+                    <img src="logo.svg" alt="logo">
+                </a>
+                <a href="./index.html" class="button button--gray header-button" aria-current="page">
+                    Новости
+                </a>
+                <a href="./category.html" class="button button--gray header-button" aria-current="page">
+                    Категории
+                </a>
+            </nav>
+            <div class="header__auth">
+                <a href="./login.html" class="button button--blue">Войти</a>
+            </div>
+        </header>
+        <h2>Категорий</h2>
+        <div class="category-list">
+            <div class="category">
+                <p>Спорт</p>
+                <div class="buttons">
+                    <a href="./editCategory.html" class="button button--blue button--small edit">Редактировать</a>
+                    <button type="button" class="button button--red button--small" onclick="deleteNews()">Удалить</button>
+                </div>
+            </div>
+        </div>
+        <script src="./js/category.js"></script>
+    </body>
+</html>

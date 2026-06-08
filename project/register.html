@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <title>Зарегистривоваться</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link rel="stylesheet" href="./css/index.css" />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="in-form">
+            <form class="form-login">
+                <div class="logo-login"><img width="200px" src="logo.svg"></div>
+                <div class="box">
+                    <p class="text-box">Email</p>
+                    <div class="box-input"><input class="text-input email-input" type="email" placeholder="Введите email"></div>
+                </div>
+                <div class="box">
+                    <p class="text-box">Имя</p>
+                    <div class="box-input"><input class="text-input username-input" type="username" placeholder="Введите имя"></div>
+                </div>
+                <div class="box">
+                    <p class="text-box">Пароль</p>
+                    <div class="box-input"><input class="text-input password-input" type="password" placeholder="Введите пароль"></div>
+                </div>
+                <button type="submit" class="login-button">Зарегистривоваться</button>
+                <p class="no-acc">Есть аккаунта? <a href="./login.html" class="reg">Войти</a></p>
+            </form>
+        </div>
+        <script src="js/register.js"></script>
+    </body>
+</html>

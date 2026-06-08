@@ -1,0 +1,24 @@
+document.querySelector('.form-login').addEventListener('submit', async (event) => {
+    event.preventDefault();
+
+    const email = document.querySelector('.email-input').value;
+    const password = document.querySelector('.password-input').value;
+    const name = document.querySelector('.username-input').value;
+    try {
+        const response = await fetch('https://webfinalapi.mobydev.kz/register', {
+            method: 'POST',
+            headers: {'Content-Type': 'application/json'},
+            body: JSON.stringify({email, name, password})
+        });
+
+        if (response.ok) {
+            const {token} = await response.json();
+            localStorage.setItem('authToken', token);
+            window.location.href = './index.html';
+        } else {
+            alert("Incorrect data");
+        }
+    } catch (error) {
+        console.error("Error in authorisation: ", error);
+    }
+});
